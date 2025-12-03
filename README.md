@@ -37,12 +37,12 @@ git clone https://github.com/yourusername/gc-rent-a-car.git
 cd gc-rent-a-car
 Install dependencies
 
-Bash
+```Bash
 
 npm install
 Run the development server
 
-Bash
+```
 
 npm run dev
 Open your browser and navigate to http://localhost:5173 to view the app.
@@ -65,16 +65,20 @@ Place new images in the src/assets/ folder and update the import references in s
 🏗️ Building for Production
 To create an optimized production build:
 
-Bash
+```Bash
 
 npm run build
+
+```
 This will generate a dist folder containing your static files, ready for deployment.
 
 You can preview the production build locally using:
 
-Bash
+```Bash
 
 npm run preview
+
+```
 🚀 Deployment
 Option 1: Vercel (Recommended)
 Push your code to GitHub.
