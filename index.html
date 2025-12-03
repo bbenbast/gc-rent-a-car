@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GC-RENT-A-CAR | Aluguer de Viaturas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                blue: '#3b82f6',
+                dark: '#1e293b',
+                accent: '#0ea5e9',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      html { scroll-behavior: smooth; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- This line is crucial for Vite to load your React app -->
+    <script type="module" src="/src/index.tsx"></script>
+  </body>
+</html>
