@@ -43,7 +43,7 @@ export const COMPANY_INFO: CompanyInfo = {
 export const FLEET_DATA: Car[] = [
   {
     id: 'c1',
-    name: 'Chevrolet Spark',
+    name: 'Chevrolet Spark 1',
     category: 'Económico',
     image: ASSETS.car1, // Maps to Image 1
     plate: 'CDA-01-88-AA',
@@ -71,10 +71,19 @@ export const FLEET_DATA: Car[] = [
     id: 'c4',
     name: 'Toyota HiAce',
     category: 'Van',
-    image: ASSETS.car4, // Maps to Image 5
+    image: ASSETS.car4, // Maps to Image 4
     plate: 'LDA-58-27-AG',
     description: 'Ideal para transporte de grupos e logística.',
     features: ['Muitos Lugares', 'Espaçoso', 'Confortável para Grupos']
+  },
+  {
+    id: 'c5',
+    name: 'Chevrolet Spark 2',
+    category: 'Económico',
+    image: ASSETS.car1, // Maps to Image 1, same car as c1
+    plate: 'CDA-01-88-AA',
+    description: 'Compacto e económico, perfeito para a cidade.',
+    features: ['Ar Condicionado', '4 Lugares', 'Transmissão Manual', 'Gasolina']
   }
 ];
 
